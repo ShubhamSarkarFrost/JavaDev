@@ -22,7 +22,7 @@ public class Final_Score {
         System.out.println("Enter the GameOver Option ? true-GameOver & false- PlayGame");
         mgameover = sc.nextBoolean();
 
-        if(mgameover == true){
+        if(mgameover){
             finalscore = finalscore(score,level,bonus);
             System.out.println("The Final Score of You is : "+ finalscore);
         }else{
