@@ -1,23 +1,28 @@
 package ArrayListChallenge_Mobile_Phone;
 
+/**
+ * Created by dev on 28/08/15.
+ * Revised by Tim on 4th Feb 2018.
+ */
 public class Contact {
     private String name;
-    private String phonenumber;
+    private String phoneNumber;
 
-    public Contact(String name, String phonenumber) {
+    public Contact(String name, String phoneNumber) {
         this.name = name;
-        this.phonenumber = phonenumber;
+        this.phoneNumber = phoneNumber;
     }
 
     public String getName() {
         return name;
     }
 
-    public String getPhonenumber() {
-        return phonenumber;
+    public String getPhoneNumber() {
+        return phoneNumber;
     }
 
-    public static Contact createNewContact(String name, String phonenumber){
-        return  new Contact(name,phonenumber);
+    public static Contact createContact(String name, String phoneNumber) {
+        return new Contact(name, phoneNumber);
     }
 }
+
