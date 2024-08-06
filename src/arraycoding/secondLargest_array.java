@@ -38,7 +38,7 @@ public class secondLargest_array {
             if(arr < smallest){
                 secondsmallest = smallest;
                 smallest = arr;
-            } else if (arr > secondsmallest && arr !=smallest) {
+            } else if (arr < secondsmallest && arr !=smallest) {
                 secondsmallest = arr;
             }
 
